@@ -1,0 +1,93 @@
+body,html{
+    background-color: rgb(105, 105, 105);
+    color: whitesmoke;
+    margin: 0;
+    padding: 0;
+}
+
+#banner{
+    width: 100%;
+    height: 125px;
+    float: left;
+    background-color: rgb(61, 61, 61);
+    box-sizing: border-box;
+    position: relative;
+}
+
+#left{
+    width: 20%;
+    height: 100%;
+    float: left;
+    background-color: rgb(73, 73, 73);
+    box-sizing: border-box;
+}
+
+#center{
+    width: 60%;
+    height: 100%;
+    float: left;
+    background-color: rgb(105, 105, 105);
+    box-sizing: border-box;
+}
+
+#right{
+    width: 20%;
+    height: 100%;
+    float: left;
+    background-color: rgb(73, 73, 73);
+    box-sizing: border-box;
+}
+
+#confirmPreset{
+    background-color: rgb(22, 22, 22);
+    width: 20%;
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+#confirmAbility{
+    background-color: rgb(22, 22, 22);
+    width: 20%;
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+#kofiButton{
+    position: absolute;
+    bottom: 0%;
+    width:184px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+#infoLeft{
+    text-align: left;
+    float: left;
+    width: 30%;
+    margin-left: 2%;
+}
+#infoMid{
+    text-align: center;
+    float: left;
+    width: 36%;
+}
+#infoRight{
+    text-align: right;
+    float: left;
+    width: 30%;
+    margin-right: 2%;
+}
+
+a:link,a:visited{
+    text-decoration: none;
+    color: rgb(141, 206, 228);
+}
+
+#titleText{
+    font-size: xx-large;
+}
